@@ -1,6 +1,6 @@
-package com.verizon.netsense.spark
+package com.sample.spark
 
-import com.verizon.netsense.spark.FakeFriends.rddTuple
+import FakeFriends.rddTuple
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
